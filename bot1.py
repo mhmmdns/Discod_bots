@@ -21,5 +21,5 @@ async def on_message(message):
         await message.channel.send("\U0001f642")
     else:
         await message.channel.send(message.content)
-
+# Güvenlik sebebiyle Token bilgilerini paylaşırken dikkat edilmelidir.
 client.run("Botunuzun Token'nı burada olmalıdır.")
